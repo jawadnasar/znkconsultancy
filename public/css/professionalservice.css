@@ -1,0 +1,108 @@
+.fca-div1,
+.comp-solution-div1, 
+.comp-audit-div1,
+.mny-laundering-div1,
+.staff-training-div2,
+.out-compliance-div1 {
+  height: 130px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.prof-ser-icons img{
+  display: block;
+  margin: auto;
+}
+
+.totalcomp{
+  margin-top: -25px;
+}
+.tot-comp-img {
+  width: 80%;
+    height: auto;
+  display:block;
+    margin:auto;
+}
+.services-paragraph{
+  padding: 0 15px 0 15px;
+}
+
+.outsource{
+  margin-top: -25px;
+}
+.outsource-img {
+   width: 100%;
+    height: auto;
+  display:block;
+    margin:auto;
+}
+
+.amnylaundering{
+  margin-top: -25px;
+}
+.moneylaunderingimg{
+	 width: 100%;
+    height: auto;
+  display:block;
+    margin:auto;
+}
+.bankacc{
+  margin-top: -25px;
+}
+.bankaccimg{
+	 width: 100%;
+    height: auto;
+  display:block;
+    margin:auto;
+}
+
+.dgmb {
+  background-image: url("../img/dgbg-1.png");
+ 
+  margin-bottom: 0rem;
+  padding: 16rem 2rem;
+}
+
+.metro-logo{
+  height: 128px;
+  width: 128px;
+}
+.metro-text{
+  padding-top: 10px;
+}
+.metro-text .text-justify{
+  text-align:justify;
+  word-spacing:-2px;
+}
+
+
+.mrbk1{
+  width: 100%;
+    height: auto;
+
+}
+
+#metro-bg1, #metro-bg2, #metro-bg3{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#metro-bg1{
+  background-image: url("../img/mrkb1.jpg");
+}
+
+#metro-bg2{
+  background-image: url("../img/mrkb2.jpg");
+}
+
+#metro-bg3{
+  background-image: url("../img/mrkb3.jpg");
+}
+
+.br-metro-content{
+  height: 490px;
+  width: 450px;
+}

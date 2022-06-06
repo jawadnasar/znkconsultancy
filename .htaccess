@@ -1,0 +1,24 @@
+RewriteEngine On
+#RewriteBase /projects/abu/khyberexchange/
+RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
+RewriteRule .* - [L,R=404]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*[^/]+)/? /index.php?url=$1 [L,QSA]
+
+#Error in pages occur
+ErrorDocument 401 401
+ErrorDocument 402 402
+ErrorDocument 403 403
+ErrorDocument 404 "Sorry Not allowed"
+ErrorDocument 500 500
+ErrorDocument 404 /c404.html
+
+
+
+#Pages are called this way in the above section
+#ErrorDocument 401 #view/401.php
+#ErrorDocument 402 #view/402.php
+#ErrorDocument 403 #view/403.php
+#ErrorDocument 404 #view/404.php
+#ErrorDocument 500 #view/500.php

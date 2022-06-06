@@ -1,0 +1,132 @@
+.brand-name{
+    font-size: 30px;
+}
+
+/* DropDown Starts Here */
+/*  Change this breakpoint if you change the breakpoint of the navbar */
+
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+/* Dropdown Ends Here */
+
+/* Navbar Coloring and everything starts here */
+.navbar{
+    color:white;
+    /* padding-top:25px; */
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 2px #0073e6, 0 0 2px #0073e6, 0 0 2px #0073e6, 0 0 2px #0073e6, 0 0 2px #0073e6;
+}
+.navbar-header{
+  background-image: url(../img/dgbg-1.png);
+}
+/* Navbar coloring Ends Here */
+
+/* Footer Goes Here */
+footer{
+  background: #3e3b3b;
+  color: #c4c4c4;
+  padding: 50px 0px 10px 20px;
+}
+.footerlogo-text{
+  font-size: 13px;
+  padding: 20px 10px 0 0;
+}
+.footer-links{
+  padding-top: 0px;
+  font-size: 12px;
+}
+.footer-links a:hover {
+  text-decoration: none;
+  color: #31a2ee;
+}
+.footer-links-title{
+  padding-left: 170px;
+}
+.f-link-hr{
+  width: 131px;
+    margin-left: 0;
+}
+.fontsize-12{
+  font-size: 12px;
+}
+.footer-email{
+  font-size:14px;
+}
+.footer-email:hover{
+  color: #31a2ee;
+}
+.footer .fa-facebook-f{
+  color: #3b5998;
+  width: 52px;
+  height: 52px;
+}
+.footer .fa-twitter{
+  color: #31a2ee;
+  width: 52px;
+  height: 52px;
+}
+.footer .fa-linkedin-in{
+  color: #15aabf;
+  width: 52px;
+  height: 52px;
+}
+.footer .fa-at{
+  color: #e34133;
+  width: 52px;
+  height: 52px;
+}
+.circle-icon {
+  background: #e4f3ff;
+  border-radius: 30%;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 4px;
+}
+/* Footer Ends Here */
